@@ -25,7 +25,7 @@ INSERT INTO books VALUES
 (3, 'Islamiat', 3);
 
 -- ==============================
-          INNER JOIN QUERY
+--         INNER JOIN QUERY
 -- ==============================
 
 SELECT students.id,
@@ -36,7 +36,7 @@ INNER JOIN books
 ON students.id = books.student_id;
 
 -- =============================
-         LEFT JOIN QUERY
+--        LEFT JOIN QUERY
 -- =============================
 
 SELECT students.id,
@@ -47,7 +47,7 @@ LEFT JOIN books
 ON students.id = books.student_id;
 
 -- ==============================
-        RIGHT JOIN QUER
+--        RIGHT JOIN QUER
 -- ==============================
 
 SELECT students.id,
